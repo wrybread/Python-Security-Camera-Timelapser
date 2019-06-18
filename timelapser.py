@@ -11,7 +11,7 @@ Here's a sample of the output: vimeo.com/316945847
 
 Can also add a timestamp to the pictures. It gets the timestamp from the filename, which it expects to be in this format:
 
-_________________
+2019-02-03_02-06-15.jpg
 
 Can disable timestamps if your filenames don't have that format.
 
@@ -88,8 +88,6 @@ if add_timestamps:
     from PIL import ImageFont
     from PIL import ImageDraw
     
-
-
 
 
 
