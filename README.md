@@ -19,7 +19,7 @@ I included some sample pics in the /pics directory, and the Windows version of f
 
 I'm using this ffmpeg command by the way, where imagepaths.txt is a text file containing a list of the pics:
 
-ffmpeg.exe -y -r 80 -f concat -safe 0 -i imagepaths.txt -vcodec libx264 -s 1280x720 -crf 18 -preset slow -r 30 output.mp4
+`ffmpeg.exe -y -r 80 -f concat -safe 0 -i imagepaths.txt -vcodec libx264 -s 1280x720 -crf 18 -preset slow -r 30 output.mp4`
 
 Not yet tested on Python 3 yet, I'm still using Python 2.7.
 
