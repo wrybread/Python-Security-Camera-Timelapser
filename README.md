@@ -1,5 +1,5 @@
 # Python-Security-Camera-Image-Downloader-For-Timelapses
-These are the scripts I wrote to build this timelapse:
+These are the scripts I used to build this timelapse:
 
 https://vimeo.com/316945847
 
