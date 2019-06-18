@@ -1,1 +1,0 @@
-"D:\PROJECTS\Timelapser\ffmpeg.exe" -y -r 80 -f concat -safe 0 -i "D:\PROJECTS\Timelapser\temp\imagepaths.txt" -vcodec libx264 -s 1280x720 -crf 18 -preset slow -r 30 "D:\PROJECTS\Timelapser/output/output.mp4"
