@@ -7,7 +7,7 @@ There's two Python scripts:
 
 **cam_downloader.py** downloads a static image (http://sinkingsensation.com/cam/saved.jpg) from any security camera that has a URL for static images as well as a timestamped version it places in a directory (http://sinkingsensation.com/cam/timelapse) for building a timelapse later. I run it on a webserver, pulling an image once a minute with this line:
 
-* * * * *  ~/whatever.com/cam_downloader.py
+`* * * * *  ~/whatever.com/cam_downloader.py`
 
 **timelapser.py** builds a timelapse movie from the directory of saved images.
 
